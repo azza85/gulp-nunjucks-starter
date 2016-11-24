@@ -1,0 +1,7 @@
+{% extends "wrapper.nunjucks" %}
+
+{% block content %}
+<div class="padded">
+	{% include "index.nunjucks" %}
+</div>
+{% endblock %}
